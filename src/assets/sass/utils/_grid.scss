@@ -1,0 +1,5 @@
+@use "../abstract/index";
+
+$styles: ();
+
+@include index.generate_styles($styles);
